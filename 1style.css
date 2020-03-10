@@ -1,0 +1,77 @@
+header {
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 48pt;
+    padding: 0pt;
+    margin: 0pt;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkcyan;
+    
+}
+header nav {
+
+font: lighter;
+color: darkgray;
+background-color: white;
+
+}
+
+header nav ul {
+    color: darkgray;
+    position:relative;
+    top:0pt;
+    left:0pt;
+}
+header nav ul li {
+    /* why wont this affect the text? - because it was being overriden by above */ 
+    align-items: center; 
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12pt;
+    padding: 0;
+    margin:0;
+}
+
+header nav ul li a {
+    position:relative;
+    top:-30pt;
+    left:0pt;
+    padding:0;
+    margin:0;
+    border-right: grey 1pt solid;
+    color:grey;
+
+
+}
+
+header nav ul li a:last-child {
+    border-right:none
+
+}
+
+
+
+img {
+    width:30%;
+    height:30%;
+}
+
+div {
+    background-color: darkcyan;
+
+    height: 12px;
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(24, 23, 23, 0.801);
+    text-align: center;
+    color: rgb(107, 103, 103);
+    font-size: 20pt;
+}
+
